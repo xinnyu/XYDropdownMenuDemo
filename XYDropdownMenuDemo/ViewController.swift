@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let items = ["列表1", "列表2", "列表3" ,"设置"]
+        let items = ["列表1", "列表2", "列表3" ,"列表4"]
         let BTView = XYDropDownMenu(title: "", items: items)
         //BTView.arrowImage = UIImage(named: "ar")
         BTView.arrowPadding = -15
